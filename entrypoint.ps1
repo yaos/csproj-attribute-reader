@@ -14,4 +14,4 @@ $Match = [Regex]::Matches($CsprojFile, "(?<=Version>)(.*)(?=</Version)")
 
 $Version = $Match.Value
 
-Write-Output "::set-output name=Version::$Version"
+Write-Output "::set-output name=Version::v$Version"
