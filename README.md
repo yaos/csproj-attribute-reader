@@ -1,13 +1,13 @@
 # Version Reader GitHub Action
 
-Reads the version tag from [ a .NET Core CSPROJ file](https://docs.microsoft.com/en-us/dotnet/core/tools/csproj).
+Reads the version tag from [ a .NET Core csproj file](https://docs.microsoft.com/en-us/dotnet/core/tools/csproj).
 
 ## Usage
 
-You must provide the relative file path to the CSPROJ file from the repository root.
+You must provide the relative file path to the csproj file from the repository root.
 
 ```
-name: Read version from CSPROJ file
+name: Read version from csproj file
 on: [push]
 jobs:
   get-version:
