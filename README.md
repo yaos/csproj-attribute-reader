@@ -6,6 +6,7 @@ Reads the version tag from [ a .NET Core CSPROJ file](https://docs.microsoft.com
 
 You must provide the relative file path to the CSPROJ file from the repository root.
 
+```
 name: Read version from CSPROJ file
 on: [push]
 jobs:
@@ -18,3 +19,4 @@ jobs:
         with:
           FilePath: ./example.csproj
           
+```
