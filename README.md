@@ -1,4 +1,4 @@
-# Version Reader GitHub Action
+# csproj Attribute Reader GitHub action
 
 Reads the version tag from [ a .NET Core csproj file](https://docs.microsoft.com/en-us/dotnet/core/tools/csproj).
 
