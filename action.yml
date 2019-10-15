@@ -5,6 +5,8 @@ inputs:
   FilePath:
     description: 'Path to project file'
     required: true
+outputs:
+  Version
 runs:
   using: 'docker'
   image: 'Dockerfile'
