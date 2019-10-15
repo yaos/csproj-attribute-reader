@@ -1,4 +1,4 @@
-# csproj Attribute Reader GitHub action
+# csproj Version Reader GitHub action
 
 Reads the version tag from [ a .NET Core csproj file](https://docs.microsoft.com/en-us/dotnet/core/tools/csproj).
 
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
       - name: Read version
         id: read-version
-        uses: yaos/version-reader@master
+        uses: yaos/csproj-version-reader@master
         with:
           FilePath: ./example.csproj
           
